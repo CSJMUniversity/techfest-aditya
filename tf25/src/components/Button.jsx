@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Button() {
   return (
-    <button className="sm:top-[-120px] left-[92px] w-20 text-sm bg-orange-400 text-white rounded-xs relative top-[-48px] left-6">Join Now</button>
-  )
+    <button className="mt-6 px-6 py-3 text-lg sm:text-xl bg-orange-500 text-white rounded-md shadow-lg hover:bg-orange-600 transition-all">
+      Join Now
+    </button>
+  );
 }
 
-export default Button
+export default Button;
